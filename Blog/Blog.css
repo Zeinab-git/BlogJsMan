@@ -1,0 +1,264 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #292E36;
+    color: #fff;
+}
+
+
+/* Container */
+.container_blog {
+    position: absolute;
+    width: 1360px;
+    top: 50px;
+    left: 77px;
+    text-align: center;
+}
+
+.container_blog h1 {
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 85px;
+    color: #E1B168;
+}
+
+.container_blog h2 {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 56px;
+    color: #E1B168;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 71px;
+}
+
+.discription_blog {
+    color: #90CAF9;
+    font-weight: 400;
+    font-size: 25px;
+    width: 456px;
+    margin-left: 450px;
+}
+
+
+/* Picture of Blog */
+.picture_blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.delicious , .cooking {
+    width: 640px;
+    height: 720px;
+    border: 3px solid #C4C4C4;
+}
+
+.view_more img {
+    width: 632px;
+    height: 384px;
+    object-fit: cover;
+    filter: brightness(0.5);
+    -webkit-filter: brightness(0.5);
+}
+
+.view_more button {
+    position: relative;
+    width: 227px;
+    height: 73px;
+    background-color: #E1B168;
+    color: #292E36;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    border: none;
+    top: -226px;
+    cursor: pointer;
+}
+
+.delicious_text {
+    width: 632px;
+    height: 336px;
+    color: #90CAF9;
+    margin-top: -62px;
+}
+
+.span_blog {
+    width: 548px;
+    height: 30px;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 400;
+    padding-left: 99px;
+    margin-bottom: 42px;
+    margin-top: 15px;
+}
+
+.delicious_text h3{
+    width: 502px;
+    height: 78px;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 66px;
+    margin-bottom: 37px;
+}
+
+
+.delicious_text p{
+    font-size: 21px;
+    line-height: 33px;
+    color: white;
+}
+
+
+/* Footer */
+
+.footer_picture { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.faceInsta,.twitpinter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+}
+
+
+.footer_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    color: #FFFFFF;
+}
+
+
+.contact , .working_hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.contact p:nth-last-child(2) ,.contact p:last-child , .weekdays {
+    color: #E1B168;
+}
+
+.contact p:first-child , .working_hours p {
+    border: 4px outset #E1B168;
+    text-align: center;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    width: 176px;
+    margin-bottom: 35px;
+}
+
+.gmail {
+    width: 664px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    gap: 50px;
+}
+
+.gmail p {
+    width: 303px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.gmail div {
+    min-width:664px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #858585;
+}
+
+.email{
+    width:456px;
+    height: 68px;
+    outline: none;
+    background-color: #292E36;
+}
+
+.email::placeholder , .email{
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 33px;
+    padding: 2px;
+}
+
+.gmail div button {
+    width: 208px;
+    height: 68px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 22px;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+footer hr {
+    color: #575B62;
+    margin-top: 28px;
+}
+
+.footer_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1422px;
+    height: 81px;
+    color:#E1B168;
+}
+
+.footer_list_one , .footer_list_two {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.footer_list_one {
+    margin-left: -415px;
+}
+
+.footer_list_two {
+    margin-right: -353px;
+}
+
+.footer_list_one li:first-child ,.footer_list_one li:nth-last-child(2){
+    color: #FFFFFF;
+}
